@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
   res.send("We are on home");
 });
 
-server.listen(process.env.PORT, process.env.HOST, () => {
+server.listen(5000, () => {
   console.log("Server is listening at port 5000");
 });

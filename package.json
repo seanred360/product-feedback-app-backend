@@ -1,24 +1,19 @@
 {
-  "name": "product-feedback-app-backend",
+  "name": "rest-api",
   "version": "1.0.0",
-  "description": "The backend API for the Product Feedback APP.",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "devstart": "nodemon server.js",
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "14.17.0"
+    "devstart": "nodemon server.js"
   },
   "keywords": [],
-  "author": "Sean Redmon seanred.io",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "dotenv": "^15.0.0",
     "express": "^4.17.2",
-    "heroku-cli": "^7.0.9",
     "luxon": "^2.3.0",
     "mongoose": "^6.1.10",
     "nodemon": "^2.0.15",
